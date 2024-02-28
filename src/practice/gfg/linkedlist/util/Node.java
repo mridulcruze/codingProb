@@ -21,4 +21,8 @@ public class Node {
     public void setNextNode(Node nextNode) {
         this.nextNode = nextNode;
     }
+
+    public int getData() {
+        return data;
+    }
 }
